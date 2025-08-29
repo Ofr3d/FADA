@@ -1,0 +1,26 @@
+{
+  "name": "makoagent",
+  "version": "0.1.0",
+  "description": "Standalone 3D printing monitoring, print quality improvement assistant and calibration tool",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test test/**/*.test.js",
+    "install-makoagent": "node install.js",
+    "postinstall": "node install.js"
+  },
+  "keywords": ["3d-printing", "monitoring", "calibration", "quality-control"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "serialport": "^12.0.0",
+    "@serialport/parser-readline": "^12.0.0",
+    "ws": "^8.16.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
