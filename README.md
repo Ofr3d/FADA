@@ -1,6 +1,6 @@
-# 🦎 MakoAgent
+# 🦎 FAilure Detection Agent
 
-Standalone 3D printing monitoring, print quality improvement assistant and calibration tool.
+Standalone 3D printing monitoring, print quality improvement assistant, and calibration tool.
 
 ## Quick Install
 
@@ -9,7 +9,7 @@ npm install
 npm start
 ```
 
-That's it! MakoAgent will:
+That's it! FADA will:
 - Auto-detect your 3D printer
 - Set up the web interface 
 - Create desktop shortcuts
@@ -42,7 +42,7 @@ That's it! MakoAgent will:
 **No printer detected?**
 - Check USB connection
 - Verify printer is powered on
-- Try different USB port/cable
+- Try a different USB port/cable
 
 **Installation issues?**
 - Run `npm install` manually
