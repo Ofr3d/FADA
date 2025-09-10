@@ -1,6 +1,6 @@
-# 🦎 FAilure Detection Agent
+# 🦎 FADA (FAilure Detection Agent)
 
-Standalone 3D printing monitoring, print quality improvement assistant, and calibration tool.
+Standalone 3D printing monitoring, print quality improvement assistant.
 
 ## Quick Install
 
